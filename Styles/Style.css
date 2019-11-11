@@ -1,0 +1,572 @@
+*{margin: 0px; padding: 0px;}
+a{text-decoration: none;}
+ul{list-style: none;}
+
+html, body
+{
+    width: 100%;
+}
+
+body
+{
+    text-align: center;
+    font-family: 'Carrois Gothic Regular';
+}
+
+.Guia
+{
+    background-color: ;
+    width: 960px;
+    margin: 0px auto;
+}
+
+header
+{
+    width: 100%;
+    min-width: 960px;
+    height: 60px;
+    overflow: hidden;
+}
+
+header .Guia
+{
+    background-color: white;
+    height: 60px;
+    display: table;
+}
+
+.Header
+{
+    width: 100%;
+    text-align: left;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.Header li
+{
+    display: inline-block;
+    float: left;
+    margin: -2px;
+}
+
+.Header img
+{
+    width: 200px;
+    height: 50px;
+    padding-right: 15px;
+    border-right: solid 4px rgb(137,214,222);
+}
+
+.Header a
+{
+    display: block;
+    padding: 15px 15px;
+    color: rgb(76,76,76);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
+    -webkit-transition: .5s all ease-in-out;
+    -moz-transition: .5s all ease-in-out;
+    -o-transition: .5s all ease-in-out;
+    -ms-transition: .5s all ease-in-out;
+}
+
+.Header a:hover
+{
+    color: rgb(137,214,222);
+    border-top: solid 2px rgb(137,214,222);
+    border-bottom: solid 2px rgb(137,214,222);
+}
+
+#Slider
+{
+    background-image: url(../Assets/Banner.jpg); 
+    background-position: top;
+    background-size: cover;
+    min-width: 960px;
+    height: 300px;
+    overflow: ;
+}
+
+nav
+{
+    min-width: 960px;
+}
+
+.Menu
+{
+    margin: 0px auto;
+}
+
+.Menu li
+{
+    display: inline-block;
+}
+
+.Menu .BoxMenu
+{
+    width: 200px;
+    margin: 20px 10px;
+    border: solid 1px rgb(137,214,222);
+    border-top: solid 5px rgb(137,214,222);
+    cursor: pointer;
+    -webkit-transition: .5s all ease-in-out;
+    -moz-transition: .5s all ease-in-out;
+    -o-transition: .5s all ease-in-out;
+    -ms-transition: .5s all ease-in-out;
+}
+
+.Menu .BoxMenu:hover
+{
+    border: solid 1px rgb(88,177,195);
+    border-top: solid 5px rgb(88,177,195);
+}
+
+.Menu img
+{
+    height: 100px;
+    margin: 10px auto;
+    opacity: .4;
+    -webkit-transition: .5s all ease-in-out;
+    -moz-transition: .5s all ease-in-out;
+    -o-transition: .5s all ease-in-out;
+    -ms-transition: .5s all ease-in-out;
+}
+
+.Menu .BoxMenu:hover img
+{
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+
+.Menu h4
+{
+    color: rgb(76,76,76);
+    margin: 5px 0px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.Menu p
+{
+    font-size: 15px;
+    color: rgb(120,120,120);
+    padding: 0px 5px 5px 5px;
+}
+
+section
+{
+    width: 100%;
+    min-width: 960px;
+    min-height: 700px;
+}
+
+#Page_1
+{
+    background-color: rgb(250,250,250);
+}
+
+#Page_1 .Guia
+{
+    width: 960px;
+    height: 700px;
+    display: table;
+}
+
+
+#Page_1 .Contenedor
+{
+    height: 400px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#Page_1 h2
+{
+    margin: 10px;
+    color: rgb(76,76,76);
+    font-size: 25px;
+}
+
+#Page_1 h5
+{
+    color: rgb(80,80,80);
+    font-size: 16px;
+}
+
+#Page_1 img
+{
+    width: 50%;
+    float: right;
+    margin: 60px 0px;
+}
+
+#Page_1 article
+{
+    width: 50%;
+    height: 300px;
+    float: left;
+    margin: 40px 0px;
+}
+
+#Page_1 article p
+{
+    margin: 15px;
+    color: rgb(80,80,80);
+    text-align: justify;
+}
+
+#Page_1 .Cursiva
+{
+    font-weight: bold;
+    color: rgb(80,80,80);
+    opacity: .9;
+}
+
+#Page_2
+{
+    background-color: rgb(88,177,195);
+}
+
+#Page_2 .Guia
+{
+    width: 960px;
+    height: 700px;
+    display: table;
+}
+
+
+#Page_2 .Contenedor
+{
+    height: 400px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#Page_2 h2
+{
+    margin: 10px;
+    color: rgb(250,250,250);
+    font-size: 25px;
+}
+
+#Page_2 h5
+{
+    color: rgb(248,249,251);
+    font-size: 16px;
+}
+
+#Page_2 img
+{
+    width: 50%;
+    float: left;
+    margin: 40px 0px;
+}
+
+#Page_2 article
+{
+    width: 50%;
+    height: 300px;
+    float: right;
+    margin: 40px 0px;
+}
+
+#Page_2 article p
+{
+    margin: 15px;
+    color: rgb(250,250,250);
+    text-align: justify;
+}
+
+#Page_3
+{
+    background-color: rgb(248,249,251);
+}
+
+#Page_3 .Guia
+{
+    width: 960px;
+    height: 700px;
+    display: table;
+}
+
+
+#Page_3 .Contenedor
+{
+    height: 400px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#Page_3 h2
+{
+    margin: 10px;
+    color: rgb(76,76,76);
+    font-size: 25px;
+}
+
+#Page_3 h5
+{
+    color: rgb(80,80,80);
+    font-size: 16px;
+}
+
+#Page_3 img
+{
+    width: 50%;
+    float: right;
+    margin: 40px 0px;
+}
+
+#Page_3 article
+{
+    width: 50%;
+    height: 300px;
+    float: left;
+    margin: 90px 0px;
+}
+
+#Page_3 article p
+{
+    margin: 15px;
+    color: rgb(80,80,80);
+    text-align: justify;
+}
+
+#Page_4
+{
+    background-color: rgb(255,255,255);
+}
+
+#Page_4 .Guia
+{
+    width: 960px;
+    height: 700px;
+    display: table;
+}
+
+#Page_4 .Contenedor
+{
+    height: 400px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#Page_4 h2
+{
+    margin: 10px;
+    color: rgb(76,76,76);
+    font-size: 25px;
+}
+
+#Page_4 h5
+{
+    color: rgb(80,80,80);
+    font-size: 16px;
+}
+
+#Page_4 img
+{
+    width: 50%;
+    float: left;
+    margin: 40px 0px;
+}
+
+#Page_4 article
+{
+    width: 50%;
+    height: 300px;
+    float: right;
+    margin: 40px 0px;
+}
+
+#Page_4 article p
+{
+    margin: 15px;
+    color: rgb(80,80,80);
+    text-align: justify;
+}
+
+#Page_4 ul
+{
+    padding-left: 35px;
+    list-style: square;
+}
+
+#Page_4 .Servicios
+{
+    margin: 5px 15px;
+}
+
+#Contact
+{
+    background-color: rgb(88,177,195);
+    width: 100%;
+    min-width: 960px;
+    height: 300px;
+    margin: 0px auto;
+    display: table;
+}
+
+.Map
+{
+    background-image: url(../Assets/Map.PNG);
+    background-position: top;
+    width: 60%;
+    height: 300px;
+    margin: 50px auto;
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+    border: solid 5px white;
+}
+
+.Dir
+{
+    width: 38%;
+    height: 300px;
+    margin: 50px auto;
+    float: right;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.Dir li
+{
+    background-color: ;
+    width: 100%;
+    margin: 15px 0px;
+    display: table;
+}
+
+.Detalle
+{
+    width: 80%;
+    float: right;
+    text-align: left;
+    border-left: solid 3px rgb(250,250,250);
+    padding-left: 10px;
+}
+
+.Detalle h5
+{
+    margin-bottom: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.Detalle a, p
+{
+    color: white;
+    font-size: 18px;
+    -webkit-transition: .3s all ease-in-out;
+    -moz-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    -ms-transition: .3s all ease-in-out;
+}
+
+.SocialMedia:hover
+{
+    -webkit-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -o-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+}
+
+.Mobile
+{
+    background-color: rgb(137,214,222);
+    position: fixed;
+    right: -140px;
+    bottom: 70px;
+    padding: 5px 5px;
+    border-radius: 8px 0px 0px 8px;
+    cursor: pointer;
+    display: table;
+    opacity: .8;
+    -webkit-transition: .5s all ease-in-out;
+    -moz-transition: .5s all ease-in-out;
+    -o-transition: .5s all ease-in-out;
+    -ms-transition: .5s all ease-in-out;
+}
+
+.Mobile:hover
+{
+    background-color: rgb(88,177,195);
+    right: 0px;
+    opacity: 1;
+}
+
+.Mobile li
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.Mobile img
+{
+    width: 50px;
+    position: relative;
+    left: -10px;
+    margin-right: -17px;
+}
+
+.Mobile p
+{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.RedSocial
+{
+    position: fixed;
+    right: 3px;
+    top: 135px;
+    display: none;
+}
+
+.RedSocial img
+{
+    width: 60px;
+    opacity: .5;
+    margin: -2px;
+    -webkit-transition: .3s all ease-in-out;
+    -moz-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    -ms-transition: .3s all ease-in-out;
+}
+
+.RedSocial img:hover
+{
+    opacity: 1;
+    -webkit-transform: translateX(-5px);
+    -moz-transform: translateX(-5px);
+    -o-transform: translateX(-5px);
+    -ms-transform: translateX(-5px);
+}
+
+#Top
+{
+    width: 43px;
+    position: fixed;
+    right: 0px;
+    bottom: 10px;
+    cursor: pointer;
+    opacity: .4;
+    -webkit-transition: .3s all ease-in-out;
+    -moz-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    -ms-transition: .3s all ease-in-out;
+}
+
+#Top:hover
+{
+    opacity: 1;
+    bottom: 15px;
+}
